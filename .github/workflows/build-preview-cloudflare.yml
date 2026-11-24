@@ -8,8 +8,7 @@ name: Build PR preview
 # longer repeat on every pull request.
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+  workflow_dispatch:
 
 # Within one pull request the newest build wins. Across pull requests there is
 # nothing to serialize: each uploads to its own branch alias, so two deployments

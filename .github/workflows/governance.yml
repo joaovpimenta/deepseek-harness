@@ -2,8 +2,7 @@
 name: Governance
 
 on:
-  issues:
-    types: [opened, edited, reopened, labeled, unlabeled]
+  workflow_dispatch:
 
 permissions:
   contents: read

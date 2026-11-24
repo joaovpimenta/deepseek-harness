@@ -7,7 +7,7 @@ name: CI Windows
 # "windows checks passed" verdict beside CI's "all checks passed" and CI
 # Python's "python checks passed".
 on:
-  pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 
